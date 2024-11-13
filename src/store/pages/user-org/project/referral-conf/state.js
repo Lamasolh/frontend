@@ -1,0 +1,120 @@
+export default {
+  saved: false,
+  show: false,
+  //
+  typeOptions: [],
+  cadOptions: [],
+  issOptions: [],
+  dataTypeOptions: [
+    { id: 1, title: 'Text', value: 1 },
+    { id: 2, title: 'Number', value: 2 },
+    { id: 3, title: 'Date', value: 3 },
+    { id: 4, title: 'Yes/No', value: 4 },
+  ],
+  yesNo: [
+    { id: 1, title: 'Yes', value: 1 },
+    { id: 2, title: 'No', value: 2 },
+  ],
+  // Filters
+  priority_period: 0,
+  priority_interval: 0,
+
+  /// Basic
+  fullname: null,
+  country: 'LB(961)',
+  countryid: 1,
+  phone: null,
+  pcr_date: null,
+  referral: null,
+  district: null,
+  governorate: null,
+  type: null,
+  iss: null,
+  cadaster: null,
+  phoneOp: {
+    phone: true,
+    phoneRegionCode: 'SY',
+    placeholder: '70 123 456',
+    options: [
+      {
+        id: 'LB',
+        text: 'LB(961)',
+        value: 1,
+        title: 'Lebanon (961)',
+      },
+      {
+        id: 'SY',
+        text: 'SY(963)',
+        value: 2,
+        title: 'Syria (963)',
+      },
+    ],
+  },
+  gender: null,
+  pcres: null,
+
+  /// Family
+  infected_count: 1,
+  male_count: 0,
+  female_count: 0,
+  child_count: 0,
+  yng_child_count: 0,
+  young_count: 0,
+  teenager_count: 0,
+  adult_count: 0,
+  elderly_count: 0,
+  family_members: 0,
+  /// other
+  pregnant: false,
+  house_hold: false,
+  isolation_room: false,
+  monthly_payments: false,
+  caregiver: null,
+  employment: null,
+  adresstext: null,
+  /// MultiField
+  indOptions: [],
+  filedOptions: [],
+  /// Items
+  items: [],
+  itemField: [
+    /// Basic
+    { key: 'id', label: 'ID' },
+    { key: 'code', label: 'Code', class: 'code' },
+    // { key: 'pcr_result', label: 'PCR Result', class: 'pcr_result' },
+    { key: 'referral', label: 'Referral', class: 'referral' },
+    { key: 'name', label: 'Full Name', class: 'name' },
+    { key: 'nationality', label: 'Nationality' },
+    { key: 'gender', label: 'Gender', class: 'gender' },
+    { key: 'phone', label: 'Phone', class: 'phone' },
+    /// Address
+    { key: 'governorate', label: 'Governorate', class: 'governorate' },
+    { key: 'district', label: 'District', class: 'district' },
+    { key: 'type', label: 'Type', class: 'type' },
+    { key: 'cadaster', label: 'cadaster', class: 'cadaster' },
+    { key: 'iss', label: 'Settlement', class: 'iss' },
+    /// Family
+    { key: 'infected_count', label: 'Infected Count', class: 'infected_count' },
+    { key: 'male_count', label: 'Male Count', class: 'male_count' },
+    { key: 'female_count', label: 'Female Count', class: 'female_count' },
+    { key: 'yng_child_count', label: 'Babies Count', class: 'yng_child_count' },
+    { key: 'child_count', label: 'Child Count', class: 'child_count' },
+    { key: 'young_count', label: 'Young Count', class: 'young_count' },
+    { key: 'teenager_count', label: 'Teenager Count', class: 'teenager_count' },
+    { key: 'adult_count', label: 'Adult Count', class: 'adult_count' },
+    { key: 'elderly_count', label: 'Elderly Count', class: 'elderly_count' },
+    // Other
+    { key: 'pregnant', label: 'Pregnant', class: 'pregnant' },
+    { key: 'house_hold', label: 'HouseHold', class: 'house_hold' },
+    { key: 'isolation_room', label: 'Isolation', class: 'isolation_room' },
+    { key: 'monthly_payments', label: 'Payment Due', class: 'monthly_payments' },
+    { key: 'employment', label: 'Employment', class: 'employment' },
+    { key: 'caregiver', label: 'Caregiver', class: 'caregiver' },
+    { key: 'adresstext', label: 'Address', class: 'adresstext' },
+    {
+      key: 'show_details',
+      label: 'More Fields',
+    },
+    { key: 'action', label: 'Action' },
+  ],
+}

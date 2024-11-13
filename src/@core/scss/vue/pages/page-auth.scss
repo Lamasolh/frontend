@@ -1,0 +1,16 @@
+@import '~@core/scss/base/pages/page-auth.scss';
+.brand-logo {
+  svg {
+    height: 38px;
+    width: 40.95px;
+  }
+}
+.brand-text{
+  margin-top: 6px;
+
+}
+html[dir='rtl'] {
+  svg.feather {
+    transform: rotate(180deg);
+  }
+}

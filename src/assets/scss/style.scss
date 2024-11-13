@@ -1,0 +1,32 @@
+/*================================================================================
+
+NOTE:
+------
+PLACE HERE YOUR OWN SCSS CODES AND IF NEEDED, OVERRIDE THE STYLES FROM THE OTHER STYLESHEETS.
+WE WILL RELEASE FUTURE UPDATES SO IN ORDER TO NOT OVERWRITE YOUR STYLES IT'S BETTER LIKE THIS.  */
+/*@font-face {
+    font-family: 'Bahij Janna';
+    src: url('fonts/BahijJanna.eot');
+    src: url('fonts/BahijJanna.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BahijJanna.woff2') format('woff2'),
+        url('fonts/BahijJanna.woff') format('woff'),
+        url('fonts/BahijJanna.ttf') format('truetype'),
+        url('fonts/BahijJanna.svg#BahijJanna') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+*/
+@font-face {
+    font-family: 'Bahij Janna';
+    src: url('fonts/BahijJanna-Bold.eot');
+    src: url('fonts/BahijJanna-Bold.eot?#iefix') format('embedded-opentype'),
+        url('fonts/BahijJanna-Bold.woff2') format('woff2'),
+        url('fonts/BahijJanna-Bold.woff') format('woff'),
+        url('fonts/BahijJanna-Bold.ttf') format('truetype'),
+        url('fonts/BahijJanna-Bold.svg#BahijJanna-Bold') format('svg');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
